@@ -53,3 +53,20 @@
     background: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
 }
+
+
+
+/* Responsive for mobile devices */
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 1rem;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar ul {
+        margin-top: 2rem;
+    }
+
+}
