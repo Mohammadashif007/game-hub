@@ -1,0 +1,55 @@
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+
+/* Shared style */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "work sans";
+}
+
+.container {
+    padding: 2rem 8rem;
+}
+
+.color-primary {
+    color: #FF42A5;
+}
+
+/* Header section style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logo-text {
+    font-size: 45px;
+    font-weight: 700;
+    color:#0B0223;
+}
+.navbar ul {
+    display: flex;
+    gap: 3rem;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+.fa-color {
+    color: #F61C0D;
+    margin: 0 10px;
+}
+.follow-us {
+    padding: 0.6rem;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+}
