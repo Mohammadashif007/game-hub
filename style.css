@@ -64,9 +64,25 @@
     }
     .navbar {
         flex-direction: column;
+        
+    }
+    .navbar ul {
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+}
+
+/* Responsive for tablet devices */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .container {
+        padding: 1rem;
+    }
+    .navbar {
+        flex-direction: column;
     }
     .navbar ul {
         margin-top: 2rem;
     }
-
 }
