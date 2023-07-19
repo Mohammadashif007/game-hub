@@ -12,10 +12,25 @@
 .container {
     padding: 2rem 8rem;
 }
+.ul-list-style {
+    list-style: none;
+}
+.a-text-decoration {
+    text-decoration: none;
+}
 
 .color-primary {
-    color: #FF42A5;
+    color: #ff42a5;
 }
+.btn-primary {
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #ff42a5;
+}
+
 
 /* Header section style */
 .navbar {
@@ -31,29 +46,74 @@
 .logo-text {
     font-size: 45px;
     font-weight: 700;
-    color:#0B0223;
+    color: #0b0223;
 }
 .navbar ul {
     display: flex;
     gap: 3rem;
 }
-.navbar ul li {
-    list-style: none;
-}
+
 .navbar ul li a {
     text-decoration: none;
     font-size: 1rem;
 }
 .fa-color {
-    color: #F61C0D;
+    color: #f61c0d;
     margin: 0 10px;
 }
 .follow-us {
     padding: 0.6rem;
-    background: rgba(11, 2, 35, 0.10);
+    background: rgba(11, 2, 35, 0.1);
     border-radius: 8px;
 }
 
+/* Banner section style */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 1rem 0;
+}
+.banner-content {
+    /* background-image: url(images/Group\ 14.png); */
+    flex: 1;
+}
+.banner-img {
+    flex: 1;
+}
+.banner-img img {
+    width: 100%;
+}
+.banner-heading {
+    color: #0b0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+.banner-title {
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ul-list-style li {
+    margin: 0.6rem 0;
+}
+.banner-link {
+    margin-left: 0.8rem;
+}
+
+.btn {
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
 
 
 /* Responsive for mobile devices */
@@ -64,13 +124,11 @@
     }
     .navbar {
         flex-direction: column;
-        
     }
     .navbar ul {
         margin-top: 2rem;
         gap: 1rem;
     }
-
 }
 
 /* Responsive for tablet devices */
