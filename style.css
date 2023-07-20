@@ -31,6 +31,13 @@
     background-color: #ff42a5;
     margin-bottom: 1rem;
 }
+.btn {
+    background: #4EC5F7;
+}
+.description {
+    color: #534C64;
+    margin: 1rem 0;
+}
 
 /* Header section style */
 .navbar {
@@ -255,7 +262,7 @@
 footer {
     text-align: center;
     background: #0b0223;
-    padding: 10rem 14rem;
+    padding: 10rem 10rem;
 }
 .footer-logo {
     display: flex;
@@ -343,6 +350,11 @@ footer {
     font-size: 75px;
     color: #fff;
 }
+.watch-now {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #fff;
+}
 
 
 /* Responsive for mobile devices */
@@ -355,31 +367,30 @@ footer {
         flex-direction: column;
     }
     .navbar ul {
+        flex-direction: column;
+        align-items: center;
         margin-top: 2rem;
         gap: 1rem;
     }
     .banner-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .gamer-section {
         flex-direction: column;
+        text-align: center;
     }
     .online-games {
         flex-direction: column;
     }
     .instant-play-container {
         flex-direction: column-reverse;
+        text-align: center;
     }
     .instant-play-text {
         margin-top: 5rem;
         text-align: center;
     }
-    /* .instant-play-img {
-        margin-left: 8rem;
-    } */
-    .instant-play-container {
-        margin-left: 8rem;
-    }
+    
     .instant-img-back {
         width: 300px;
         height: 350px;
@@ -387,6 +398,7 @@ footer {
     .overlay-img-1 {
         height: 200px;
         width: 150px;
+        padding-left: 5rem;
     }
     .play-game-back {
         width: 300px;
@@ -395,6 +407,7 @@ footer {
     .overlay-img-2 {
         height: 200px;
         width: 150px;
+        padding-right: 2rem;
     }
     .play-games-container {
         flex-direction: column;
@@ -430,8 +443,9 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
     footer {
-        padding: 8rem 4rem;
+        text-align: center;
         background: #0b0223;
+        padding: 2rem 0rem;
     }
 }
 
@@ -476,5 +490,9 @@ footer {
     }
     .container {
         padding: 2rem 0rem;
+    }
+    .footer-link ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
